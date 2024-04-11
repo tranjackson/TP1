@@ -153,12 +153,6 @@ a:hover {
   padding-left: 5%;
 }
 
-.feature-text-2 {
-  width: 60%;
-  max-width: 80%;
-  padding-left: 5%;
-}
-
 .feature-box {
   display: grid;
   grid-template-rows: auto;
