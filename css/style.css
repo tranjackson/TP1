@@ -157,7 +157,6 @@ a:hover {
   width: 60%;
   max-width: 80%;
   padding-left: 5%;
-
 }
 
 .feature-box {
@@ -380,19 +379,19 @@ li:before {
 }
 
 .footer-container a {
-    margin: 0 10px; /* Adds 5px margin to the left and right of each <a> tag */
+  margin: 0 10px; /* Adds 5px margin to the left and right of each <a> tag */
 }
 
 .footer-containter-2 {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 100%;
-    height: auto;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .footer-right {
-    float: right;
+  float: right;
 }
 
 @media only screen and (max-width: 480px) {
