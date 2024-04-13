@@ -76,33 +76,31 @@ nav ul li a:hover {
 }
 
 a {
-  text-decoration: none; /* Removes the underline from all anchor tags */
+  text-decoration: none; 
 }
 
 a:hover {
-  text-decoration: underline; /* Adds an underline to the link text on hover */
+  text-decoration: underline; 
 }
 
 .hero-image {
-  /*add darkened background effect to the image */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/image/vue_montagnes.jpg");
-  height: 80vh; /* Set the height of the hero image to 80% of the viewport height */
-  /* Position and center the image to scale nicely on all screens */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent tiling */
+  height: 80vh; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   position: relative;
   padding: 50px;
   margin-top: 20px;
-  box-shadow: 0 8px 8px -4px black; /* Add a subtle fade shadow to the hero image */
+  box-shadow: 0 8px 8px -4px black; 
   display: flex;
   justify-content: space-around;
   color: white;
   text-align: center;
   flex-direction: row;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000; /* Apply black text shadow in all directions */
+    1px 1px 0 #000; 
 }
 
 .hero-text {
@@ -157,7 +155,7 @@ a:hover {
   display: grid;
   grid-template-rows: auto;
   grid-gap: 0;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column; 
   background-color: #939b43;
   color: #333;
 }
@@ -175,11 +173,11 @@ a:hover {
 .feature-box-item,
 .feature-box-item-2 {
   display: flex;
-  flex-direction: row; /* Ensure content within each box is laid out in a row */
-  align-items: center; /* Stretch items to fill the container */
-  justify-content: space-around; /* Space items evenly within the container */
-  gap: 20px; /* Optional: adds some space between the image and text */
-  text-align: center; /* Center text content */
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-around; 
+  gap: 20px; 
+  text-align: center; 
   color: #333;
 }
 
@@ -190,48 +188,48 @@ a:hover {
 }
 
 .feature-box-item .image-container {
-  flex: 1; /* Allows the image container to take up half the space */
-  overflow: hidden; /* Prevents image overflow */
-  padding: 30px; /* Adds some padding inside the container */
-  display: inline-block; /* Ensures the image container is displayed as a block */
+  flex: 1; 
+  overflow: hidden; 
+  padding: 30px; 
+  display: inline-block; 
 }
 
 .feature-box-item-2 .image-container {
   flex: 1;
-  overflow: hidden; /* Prevents image overflow */
-  padding: 30px; /* Adds some padding inside the container */
-  display: inline-block; /* Ensures the image container is displayed as a block */
-  order: 1; /* Moves the image container to the right */
+  overflow: hidden;
+  padding: 30px;
+  display: inline-block; 
+  order: 1; 
 }
 
 .feature-box-item .image-container img,
 .feature-box-item-2 .image-container img {
-  width: 100%; /* Makes the image responsive within its container */
-  max-height: 450px; /*Uniform fixed height for all images */
-  max-width: 100%; /* Prevents image overflow */
-  object-fit: cover; /* Prevents image distortion */
-  display: block; /* Removes default inline display */
-  border-radius: 30px; /* Adds rounded corners to the image */
-  height: auto; /* Ensures the image height adjusts to the width */
+  width: 100%; 
+  max-height: 450px; 
+  max-width: 100%; 
+  object-fit: cover; 
+  display: block;
+  border-radius: 30px; 
+  height: auto; 
 }
 
 .feature-box-item h3,
 .feature-box-item p {
-  margin: 0; /* Removes default margins */
-  padding: 0 20px; /* Adds some padding */
+  margin: 0; 
+  padding: 0 20px; 
 }
 
 .feature-box-item-2 h3,
 .feature-box-item-2 p {
   margin: 0;
   padding: 0 20px;
-  order: 1; /* Ensures text content stays on the left */
+  order: 1;
 }
 
 .feature-box-text {
-  flex: 1; /* Allows each text box to take up an equal amount of space */
-  padding: 0 20px; /* Adds some padding inside each box for spacing (optional) */
-  box-sizing: border-box; /* Ensures padding is included in the element's total width */
+  flex: 1; 
+  padding: 0 20px; 
+  box-sizing: border-box; 
 }
 
 .smaller-features {
@@ -258,45 +256,44 @@ a:hover {
 .smaller-feature-1 {
   background-color: #798c35;
   color: #333;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadows to create the "card" effect */
-  transition: 0.3s; /* Add a smooth transition on hover */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  transition: 0.3s; 
   width: 25%;
 }
 
 .smaller-feature-1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a larger shadow on hover */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); 
 }
 
 .smaller-feature-2 {
   background-color: #bfbb84;
   color: #333;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadows to create the "card" effect */
-  transition: 0.3s; /* Add a smooth transition on hover */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  transition: 0.3s; 
   width: 25%;
 }
 
 .smaller-feature-2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a larger shadow on hover */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .smaller-features img {
-  width: 100%; /* Makes the image responsive within its container */
-  max-height: auto; /*Uniform fixed height for all images */
-  max-width: 100%; /* Prevents image overflow */
-  object-fit: cover; /* Prevents image distortion */
-  display: block; /* Removes default inline display */
-  height: auto; /* Ensures the image height adjusts to the width */
-  border-radius: 5px; /* Adds rounded corners to the image */
+  width: 100%; 
+  max-width: 100%; 
+  object-fit: cover; 
+  display: block; 
+  height: auto; 
+  border-radius: 5px; 
 }
 
 .smaller-image-container {
-  /* Allows the image container to take up half the space */
-  overflow: hidden; /* Prevents image overflow */
-  display: flex; /* Ensures the image container is displayed as a block */
+
+  overflow: hidden; 
+  display: flex; 
   width: 100%;
   height: auto;
-  margin: 0 auto; /* Centers the image within the padding */
-  padding: 0px; /* Adds some padding inside the container */
+  margin: 0 auto; 
+  padding: 0px; 
   justify-content: center;
 }
 
@@ -322,9 +319,9 @@ a:hover {
 
 .smaller-feature-1,
 .smaller-feature-2 {
-  flex-grow: 1; /* Allows the boxes to grow and fill the space */
-  padding: 0 5%; /* Adds 5% padding on each side, making the content area effectively 10% wider */
-  box-sizing: border-box; /* Ensures padding is included in the total width of the element */
+  flex-grow: 1; 
+  padding: 0 5%; /
+  box-sizing: border-box; 
 }
 
 .list-container {
@@ -346,7 +343,7 @@ li {
 }
 
 li:before {
-  content: "\2022"; /* Unicode bullet character */
+  content: "\2022"; 
   color: #333;
   font-weight: bold;
   display: inline-block;
@@ -373,7 +370,7 @@ li:before {
 }
 
 .footer-container a {
-  margin: 0 10px; /* Adds 5px margin to the left and right of each <a> tag */
+  margin: 0 10px; 
 }
 
 .footer-containter-2 {
@@ -417,22 +414,22 @@ li:before {
   }
 
   .feature-box-item {
-    flex-direction: column; /* Stack children vertically on small screens */
+    flex-direction: column; 
   }
 
   .feature-box-item .image-container,
   .feature-box-item .feature-box-text {
-    max-width: 100%; /* Image container takes full width on small screens */
+    max-width: 100%; 
   }
 
   .feature-box-item-2 {
-    flex-direction: column; /* Stack children vertically on small screens */
+    flex-direction: column; 
   }
 
   .feature-box-item-2 .image-container,
   .feature-box-item-2 .feature-box-text {
     max-width: 100%;
-    order: unset; /* Resets the order for smaller screens */
+    order: unset; 
   }
 
   .smaller-features {
@@ -447,7 +444,7 @@ li:before {
   .smaller-feature-2 {
     flex-basis: calc(
       50% - 10px
-    ); /* Adjust width and subtract any desired gap */
-    margin: 5px; /* Half of your desired gap */
+    ); 
+    margin: 5px; 
   }
 }
